@@ -7,6 +7,10 @@ from time import sleep
 lista = ['Cadastrar nova pessoa', 'Ver cadastrados', 'Sair']
 arquivo = 'arquivo.txt'
 system('cls')
+print(verde('FEITO POR: BRUNO MARINHO DE CARVALHO'))
+print(vermelho('RA: 922101096'))
+input('Aperte "ENTER" para continuar')
+system('cls')
 
 if arquivo_existe(arquivo):
     print(verde('Arquivo encontrado com sucesso'))
