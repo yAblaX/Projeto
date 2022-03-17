@@ -31,8 +31,8 @@ def cadastro(arquivo, nome, peso, altura, idade):
 # MOSTRA AS PESSOAS CADASTRADAS #
 def ver_cadastradas(arquivo):
     arq = open(arquivo, 'rt')
-    print(f'|{"Nome":^15}|{"Peso":^15}|{"Altura":^15}|{"Idade":^15}|')
+    print(f'|{"Nome":^14}|{"Peso":^14}|{"Altura":^14}|{"Idade":^13}|')
     for linha in arq:
         dado = linha.split(' ')
         if type(dado[1]) != int and type(dado[1]) != float:
-            print(f'|{dado[0]:^15}{f"{dado[1]}Kg":^15}{dado[2]:^15}{dado[3]:^15}|')
+            print(f'|{dado[0]:^14}|{f"{dado[1]}Kg":^14}|{dado[2]:^13}|{dado[3]:^13}|')
