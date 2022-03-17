@@ -35,4 +35,4 @@ def ver_cadastradas(arquivo):
     for linha in arq:
         dado = linha.split(' ')
         if type(dado[1]) != int and type(dado[1]) != float:
-            print(f'|{dado[0]:^14}|{f"{dado[1]}Kg":^14}|{dado[2]:^13}|{dado[3]:^13}|')
+            print(f'|{dado[0]:^14}|{f"{dado[1]}Kg":^14}|{dado[2]:^14}|{dado[3]:^13}|')

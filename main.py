@@ -42,6 +42,9 @@ while True:
             input('Digite "ENTER" para continuar')
 
         elif opc == 3:
+            print(verde('FINALIZANDO...'))
+            sleep(3)
+            system('cls')
             break
 
     except:
